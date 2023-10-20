@@ -7,3 +7,9 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+Hero.delete_all
+
+5.times do
+  Hero.create name: Faker::Superhero.name
+end
