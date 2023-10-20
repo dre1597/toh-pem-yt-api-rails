@@ -1,0 +1,29 @@
+### List all heroes
+GET http://localhost:3000/heroes
+
+### list a hero
+
+GET http://localhost:3000/heroes/10
+
+### Create a hero
+
+POST http://localhost:3000/heroes
+Content-Type: application/json
+
+{
+  "name": "Superman"
+}
+
+### Update a hero
+
+PUT http://localhost:3000/heroes/11
+Content-Type: application/json
+
+{
+  "name": "Superman2"
+}
+
+### Delete a hero
+
+DELETE http://localhost:3000/heroes/11
+
