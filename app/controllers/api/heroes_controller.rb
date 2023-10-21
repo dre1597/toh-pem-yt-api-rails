@@ -1,5 +1,9 @@
+# frozen_string_literal: true
+
+# rubocop:disable Style/ClassAndModuleChildren Style/Documentation
+# rubocop:disable Style/Documentation
 class Api::HeroesController < ApplicationController
-  before_action :set_hero, only: %i[ show update destroy ]
+  before_action :set_hero, only: %i[show update destroy]
 
   # GET /heroes
   def index
@@ -50,3 +54,6 @@ class Api::HeroesController < ApplicationController
     params.require(:hero).permit(:name)
   end
 end
+
+# rubocop:enable Style/ClassAndModuleChildren Style/Documentation
+# rubocop:enable Style/Documentation
