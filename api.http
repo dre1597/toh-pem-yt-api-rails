@@ -1,13 +1,13 @@
 ### List all heroes
-GET http://localhost:3000/heroes
+GET http://localhost:3000/api/heroes
 
 ### list a hero
 
-GET http://localhost:3000/heroes/10
+GET http://localhost:3000/api/heroes/10
 
 ### Create a hero
 
-POST http://localhost:3000/heroes
+POST http://localhost:3000/api/heroes
 Content-Type: application/json
 
 {
@@ -16,7 +16,7 @@ Content-Type: application/json
 
 ### Update a hero
 
-PUT http://localhost:3000/heroes/11
+PUT http://localhost:3000/api/heroes/11
 Content-Type: application/json
 
 {
@@ -25,5 +25,5 @@ Content-Type: application/json
 
 ### Delete a hero
 
-DELETE http://localhost:3000/heroes/11
+DELETE http://localhost:3000/api/heroes/11
 
