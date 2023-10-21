@@ -1,5 +1,7 @@
 # README
 
+This repo is based on this [YouTube Playlist](https://www.youtube.com/watch?v=gTR6lx00Nac&list=PLqsayW8DhUmuvgOX08aXYk6Y-HGrdYg20)
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
